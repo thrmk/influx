@@ -28,7 +28,7 @@ from influxdb import DataFrameClient
 #engine = create_engine(db_URI)
 
 
-client1 = InfluxDBClient(host='localhost', port=8086)
+client1 = InfluxDBClient(host='0.0.0.0', port=8086)
 
 #client = InfluxDBClient(host='mydomain.com', port=8086, username='myuser', password='mypass', ssl=True, verify_ssl=True)
 
